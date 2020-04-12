@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "A whatsApp bot that aims to convert audio messages to text messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server/server.js"
+  },
+  "keywords": [
+    "whatsapp"
+  ],
+  "author": "Rafael Villarreal <rvillarreal416@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/speech": "^3.6.0",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twilio": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
